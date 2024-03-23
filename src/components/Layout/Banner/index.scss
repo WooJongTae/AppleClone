@@ -1,0 +1,19 @@
+.banner_container {
+  box-sizing: border-box;
+  width: 80%;
+  background: blue;
+  margin: 80px 10% 0;
+
+  .banner_flex {
+    display: flex;
+    list-style: none;
+
+    li {
+      width: 15%;
+
+      img {
+        width: 50%;
+      }
+    }
+  }
+}
